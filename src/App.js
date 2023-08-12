@@ -5,6 +5,8 @@ import { useTelegram } from './Hooks/useTelegram';
 import { Route, Routes } from 'react-router-dom';
 import Form from './Components/Form/Form';
 import ProductList from './Components/ProductsList/ProductList';
+import Hi from './Components/Hi/Hi';
+
 
 
 function App() {
@@ -22,8 +24,7 @@ function App() {
       <Route index element={<ProductList/>}/>
       <Route path='/form' element={<Form/>}/>
      </Routes> */}
-     hello world
-     <button>baby</button>
+     <Hi/>
     </div>
   );
 }
